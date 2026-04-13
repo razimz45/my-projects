@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import "tailwindcss";
+
+@layer utilities{
+   .font-instagram {
+    font-family: 'Pacifico', cursive;
+  }
+}
+@layer base;
+@layer components{
+  .main-content{
+    @apply pl-50
+  }
+}

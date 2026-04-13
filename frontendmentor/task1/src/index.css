@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200..900&display=swap');
+@import "tailwindcss";
+
+
+
+
+@theme{
+  --background-image-hero-image:url('/bgimage.jpg')
+}
+
+@layer base{
+  body{
+    font-family: 'outfit',sans-serif
+  }
+
+}
+@layer components{
+.pattern{
+  @apply bg-hero-image w-full h-screen
+}
+.navbar{
+  @apply flex md:h-16 w-full bg-gradient-to-b text-2xl m-2 bg-white justify-end items-end }
+
+}
+@layer utilities;

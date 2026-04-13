@@ -1,0 +1,9 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/add-item/page": "app/admin/add-item/page.js",
+  "/admin/add-menu/page": "app/admin/add-menu/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/menu/new/page": "app/menu/new/page.js",
+  "/page": "app/page.js"
+}
